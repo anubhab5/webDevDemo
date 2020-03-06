@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--
+  The following 2 meta tags *must* come first in the <head>
+  to consistently ensure proper document rendering.
+  Any other head element should come *after* these tags.
+-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Name of web application (only should be used if the website is used as an app) -->
+  <meta name="application-name" content="Application Name">
+
+  <!-- Theme Color for Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#4285f4">
+
+  <!-- Short description of the document (less than 150 characters) -->
+  <!-- This content *may* be used as a part of search engine results. -->
+  <meta name="description" content="A description of the page">
+
+  <!-- Control the behavior of search engine crawling and indexing -->
+  <meta name="robots" content="index,follow"><!-- All Search Engines -->
+  <meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+  <!-- Tells Google not to show the sitelinks search box -->
+  <meta name="google" content="nositelinkssearchbox">
+
+  <!-- Tells Google not to provide a translation for this document -->
+  <meta name="google" content="notranslate">
+
+  <!-- Verify website ownership -->
+  <meta name="google-site-verification" content="verification_token"><!-- Google Search Console -->
+  <meta name="yandex-verification" content="verification_token"><!-- Yandex Webmasters -->
+  <meta name="msvalidate.01" content="verification_token"><!-- Bing Webmaster Center -->
+  <meta name="alexaVerifyID" content="verification_token"><!-- Alexa Console -->
+  <meta name="p:domain_verify" content="code_from_pinterest"><!-- Pinterest Console-->
+  <meta name="norton-safeweb-site-verification" content="norton_code"><!-- Norton Safe Web -->
+
+  <!-- Identify the software used to build the document (i.e. - WordPress, Dreamweaver) -->
+  <meta name="generator" content="program">
+
+  <!-- Short description of your document's subject -->
+  <meta name="subject" content="your document's subject">
+
+  <!-- Gives a general age rating based on the document's content -->
+  <meta name="rating" content="General">
+
+  <!-- Allows control over how referrer information is passed -->
+  <meta name="referrer" content="no-referrer">
+
+  <!-- Disable automatic detection and formatting of possible phone numbers -->
+  <meta name="format-detection" content="telephone=no">
+</head>
+
+<body>
+
+  <form>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male"><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+  </form>
+
+  <form>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label>
+  </form>
+
+
+  <textarea placeholder="Comment" rows="4" cols="50"></textarea>
+  <br>
+
+  <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+
+  <button onclick="alert('Hello World 123!')">
+    Click
+  </button>
+
+  <form>
+    <label for="favcolor">Select your favorite color:</label>
+    <input type="color" id="favcolor" name="favcolor">
+  </form>
+
+</body>
+
+</html>
