@@ -1,11 +1,28 @@
-#colormered {
-    color: rgb(230, 30, 73);
+body {
+  margin: 1rem;
+  border: 1px solid black;
+  padding: 5px;
 }
 
-#colormegreen {
-    color: green;
+/* Simple Selector -  DO NOT UNCOMMENT */
+.general-selector div {
+  color: red;
 }
 
-.webdev{
-    color: rgb(6, 92, 13);
+/* DESCENDANT COMBINATOR */
+.descendant div p {
+  background-color: yellow;
+}
+
+
+.child-selector div > p {
+  background-color: yellow;
+}
+
+.adjacent-sibling div + p {
+  background-color: yellow;
+}
+
+.general-sibling div ~ p {
+  background-color: yellow;
 }
