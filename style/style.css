@@ -14,15 +14,17 @@ body {
   background-color: yellow;
 }
 
-
+/* CHILD SELECTOR */
 .child-selector div > p {
   background-color: yellow;
 }
 
+/* ADJACENT SELECTOR */
 .adjacent-sibling div + p {
   background-color: yellow;
 }
 
+/* GENERAL SELECTOR */
 .general-sibling div ~ p {
   background-color: yellow;
 }
